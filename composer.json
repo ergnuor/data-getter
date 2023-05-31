@@ -1,0 +1,26 @@
+{
+  "name": "ergnuor/data-getter",
+  "description": "",
+  "keywords": ["boilerplate", "data", "getter"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis Tarasov",
+      "email": "brokeneye@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "suggest": {
+    "doctrine/dbal": "For Doctrine DBAL implementations",
+    "doctrine/orm": "For Doctrine ORM implementations"
+  },
+  "autoload": {
+    "psr-4": {"Ergnuor\\DataGetter\\": "src/"}
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
